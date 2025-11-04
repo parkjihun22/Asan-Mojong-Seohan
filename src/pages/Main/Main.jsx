@@ -52,7 +52,7 @@ const section3Contents = [
     imgSrc: section3_Image1,
     title: "PREMIUM 01",
     text1: `브랜드 대단지 스케일`,
-    text2: `총 1,325세대 두산위브 대단지<br/>
+    text2: `총 1,325세대 이다음 대단지<br/>
             지하 2층~지상 25층 · 21개동 · 공원형 단지`,
     link: "/BusinessGuide/intro",
     linkText: "더 알아보기 >",
@@ -254,7 +254,7 @@ const Main = () => {
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox}>
             <div className={styles.mainImageTextSub}>
-              브랜드 신뢰 두산위브{" "}
+              브랜드 신뢰 이다음{" "}
               <span className={styles.greyText}>브랜드 프리미엄</span>
             </div>
             <div className={styles.mainImageTitleBox}>
@@ -584,7 +584,7 @@ const Main = () => {
             <div className={styles.mainImageTextBox1}>
             <div className={styles.mainImageTextSub1}>
               아산의 새로운 시작, 높은 미래가치<br/>
-              브랜드 신뢰 두산위브
+              브랜드 신뢰 이다음
               <br />
               <span className={styles.greyText1}>브랜드 프리미엄</span>
               <br />

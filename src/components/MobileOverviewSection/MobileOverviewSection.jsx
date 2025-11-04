@@ -118,7 +118,7 @@ function PremiumSlider() {
     },
     {
       img: slide6,
-      title: "두산위브 브랜드 가치",
+      title: "이다음 브랜드 가치",
       desc:
         "지상 차 없는 공원형 단지·커뮤니티 특화<br/>두산건설 시공, 2028년 3월 입주(예정)",
     },

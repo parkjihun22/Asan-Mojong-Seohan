@@ -46,7 +46,7 @@ const LocationSection = [
   },
   {
     img: section2Image5,
-    titleText: "브랜드 대단지 스케일<br />1,325세대 두산위브",
+    titleText: "브랜드 대단지 스케일<br />1,325세대 이다음",
     contentText:
       "지하 2층~지상 25층, 21개동 규모 공원형 단지<br />피트니스·실내골프·작은도서관 등 커뮤니티 특화",
   },
@@ -170,7 +170,7 @@ const LocationEnvironment1 = () => {
 
         <div className={styles.textBox}>
           <div>갈수록 편리해질 아산</div>
-          <div>살수록 높아질 두산위브</div>
+          <div>살수록 높아질 이다음</div>
           <div>도시를 압도할 자부심, 아산 모종 서한이다음</div>
         </div>
 

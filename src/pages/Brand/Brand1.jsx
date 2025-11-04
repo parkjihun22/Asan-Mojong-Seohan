@@ -86,7 +86,7 @@ const Brand1 = () => {
 
             <div className={`${styles.textBox} ${isTextVisible ? styles.active : ''}`}>
             <div>생활의 모든 것을 한걸음에</div>
-            <div>두산위브, 아산의 중심에 서다</div>
+            <div>이다음, 아산의 중심에 서다</div>
             </div>
 
 
