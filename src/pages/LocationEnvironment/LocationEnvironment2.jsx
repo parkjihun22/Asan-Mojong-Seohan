@@ -51,7 +51,7 @@ const LocationEnvironment1 = () => {
           name="description"
           content="아산 모종 서한이다음 프리미엄을 확인하세요. 1,325세대 브랜드 대단지, 지상 차 없는 공원형 단지, 아산대교·초지대교와 계양–아산 고속도로(추진) 접근성, 커뮤니티 특화, 고려산·석모도 자연환경 등 핵심 가치를 안내합니다."
         />
-        <link rel="canonical" href="https://sinbiapt.co.kr/LocationEnvironment/primium" />
+        <link rel="canonical" href="https://www.cssdesign.kr/LocationEnvironment/primium" />
         <meta name="robots" content="index,follow" />
       </Helmet>
 
