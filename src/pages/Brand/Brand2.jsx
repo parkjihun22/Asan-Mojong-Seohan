@@ -44,56 +44,57 @@ const Brand2 = () => {
 
 	return (
 		<div className={styles.container}>
-				<Helmet>
-				<title>아산 모종 서한이다음 - 홍보영상</title>
-				<meta
-					name="description"
-					content="아산 모종 서한이다음 홍보영상으로 세대 설계, 지상 차 없는 공원형 단지, 커뮤니티 시설과 아산 중심 생활 인프라·광역 접근성을 생생하게 확인하세요."
-				/>
-				<link rel="canonical" href="https://www.cssdesign.kr/Brand/video" />
-				<meta name="robots" content="index,follow" />
+<Helmet>
+  <title>아산 모종 서한이다음 - 홍보영상</title>
+  <meta
+    name="description"
+    content="아산 모종 서한이다음 홍보영상으로 4Bay 중심의 세대 설계, 지상 차 없는 공원형 단지, 차별화된 커뮤니티와 모종샛들지구 중심 생활 인프라·광역 접근성을 생생하게 확인하세요."
+  />
+  <link rel="canonical" href="https://www.cssdesign.kr/Brand/video" />
+  <meta name="robots" content="index,follow" />
 
-				{/* OG 태그 */}
-				<meta property="og:type" content="website" />
-				<meta property="og:site_name" content="아산 모종 서한이다음" />
-				<meta property="og:title" content="아산 모종 서한이다음 - 홍보영상" />
-				<meta
-					property="og:description"
-					content="아산 모종 서한이다음 홍보영상: 공원형 단지 설계, 커뮤니티, 아산 중심 생활 인프라와 광역 접근성을 영상으로 만나보세요."
-				/>
-				<meta property="og:url" content="https://www.cssdesign.kr/Brand/video" />
-				<meta property="og:image" content="https://www.cssdesign.kr/images/og/main.jpg" />
+  {/* Open Graph */}
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="아산 모종 서한이다음" />
+  <meta property="og:title" content="아산 모종 서한이다음 - 홍보영상" />
+  <meta
+    property="og:description"
+    content="공원형 단지 설계와 커뮤니티, 모종샛들지구 중심의 생활 인프라·광역 접근성을 영상으로 만나보세요."
+  />
+  <meta property="og:url" content="https://www.cssdesign.kr/Brand/video" />
+  <meta property="og:image" content="https://www.cssdesign.kr/images/og/main.jpg" />
+  <meta property="og:image:alt" content="아산 모종 서한이다음 홍보영상 미리보기" />
+  <meta property="og:locale" content="ko_KR" />
 
-				{/* Twitter */}
-				<meta name="twitter:card" content="summary_large_image" />
-				<meta name="twitter:title" content="아산 모종 서한이다음 - 홍보영상" />
-				<meta
-					name="twitter:description"
-					content="세대 설계와 커뮤니티, 공원형 단지와 아산 생활 인프라·접근성을 영상으로 확인하세요."
-				/>
-				<meta name="twitter:image" content="https://www.cssdesign.kr/images/og/main.jpg" />
-				</Helmet>
+  {/* Twitter */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="아산 모종 서한이다음 - 홍보영상" />
+  <meta
+    name="twitter:description"
+    content="세대 설계·커뮤니티·공원형 단지와 모종샛들지구 생활 인프라·접근성을 영상으로 확인하세요."
+  />
+  <meta name="twitter:image" content="https://www.cssdesign.kr/images/og/main.jpg" />
+</Helmet>
 
+<Header isChanged={isScroll} />
+<FixIcon />
 
-				<Header isChanged={isScroll} />
-				<FixIcon />
+<Bener title="홍보영상" />
 
-				<Bener title="홍보영상" />
+<MenuBar contents={menuContents} />
 
-				<MenuBar contents={menuContents} />
+{/* h1: 접근성 + SEO */}
+<h1 className={styles.screenReaderOnly}>아산 모종 서한이다음 - 홍보영상</h1>
+<p className={styles.screenReaderOnly}>
+  아산 모종 서한이다음의 홍보영상을 통해 공원형 단지 설계와 커뮤니티,
+  모종샛들지구 중심의 생활 인프라와 광역 접근성을 생생하게 확인하세요.
+  현대적 감각과 편의성이 결합된 라이프스타일을 영상으로 만나보세요.
+</p>
 
-				{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-				<h1 className={styles.screenReaderOnly}>아산 모종 서한이다음 - 홍보영상</h1>
-				<p className={styles.screenReaderOnly}>
-				아산 모종 서한이다음의 홍보영상을 통해 공원형 단지 설계와 커뮤니티,
-				아산읍 중심의 생활 인프라와 광역 접근성을 생생하게 확인하세요. 현대적 감각과
-				편의성이 결합된 새로운 라이프스타일을 영상으로 만나보세요.
-				</p>
-
-				<div className={`${styles.textBox} ${isTextVisible ? styles.active : ''}`}>
-				<div>아산의 새로운 기준 위에</div>
-				<div>아산 모종 서한이다음가 자부심으로 찾아옵니다.</div>
-				</div>
+<div className={`${styles.textBox} ${isTextVisible ? styles.active : ''}`}>
+  <div>아산의 새로운 기준 위에</div>
+  <div>아산 모종 서한이다음이 자부심으로 찾아옵니다.</div>
+</div>
 
 
 			<div className={styles.videoContainer}>

@@ -52,39 +52,40 @@ const section3Contents = [
     imgSrc: section3_Image1,
     title: "PREMIUM 01",
     text1: `브랜드 대단지 스케일`,
-    text2: `총 1,325세대 이다음 대단지<br/>
-            지하 2층~지상 25층 · 21개동 · 공원형 단지`,
+    text2: `총 1,079세대 서한이다음 노블리스<br/>
+            지하 2층~지상 29층 · 10개동 · 공원형 단지`,
     link: "/BusinessGuide/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image2,
     title: "PREMIUM 02",
-    text1: `광역 교통망 모멘텀`,
-    text2: `아산대교·초지대교로 서울·김포 접근성<br/>
-            계양–아산 고속도로(추진) 등 교통 개선 기대`,
+    text1: `광역 교통망 프리미엄`,
+    text2: `KTX 천안아산역 약 10분 거리<br/>
+            서해선 복선전철(예정)·국도21호선 등 교통 호재`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image3,
     title: "PREMIUM 03",
-    text1: `의료·생활 인프라 집약`,
-    text2: `아산터미널·풍물시장·하나로마트 인접<br/>
-            지역 종합병원·보건의료 접근성 우수`,
+    text1: `의료·교육·생활 인프라 집약`,
+    text2: `충무병원·아산병원 인접, 초·중·고 도보 통학<br/>
+            이마트·하나로마트·터미널 등 편의시설 밀집`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image4,
     title: "PREMIUM 04",
-    text1: `자연·레저 특화 환경`,
-    text2: `고려산·석모도·해변·갯벌 등 풍부한 자연<br/>
-            산책·레저·관광을 누리는 힐링 라이프`,
+    text1: `자연과 함께하는 힐링 라이프`,
+    text2: `모종근린공원·온천천 인접<br/>
+            산책·레저를 누리는 여유로운 주거 환경`,
     link: "/LocationEnvironment/primium",
     linkText: "더 알아보기 >",
   },
 ];
+
 
 
 
@@ -258,7 +259,7 @@ const Main = () => {
               <span className={styles.greyText}>브랜드 프리미엄</span>
             </div>
             <div className={styles.mainImageTitleBox}>
-              <div className={styles.mainImageText}>아산가 기다린 미래 프리미엄</div>
+              <div className={styles.mainImageText}>아산이 기다린 미래 프리미엄</div>
               <div className={styles.mainImageLine}></div>
               <div className={styles.mainImageText}>
                 아산 모종 서한이다음
@@ -290,11 +291,12 @@ const Main = () => {
                   아산 모종 서한이다음 POINT
                 </div>
                 <div className={styles.text3}>
-                  - 아산대교·초지대교, 계양–아산 고속도로(추진)로 서울·김포·인천까지 편리한 접근성<br />
-                  - 아산터미널·풍물시장·하나로마트·의료기관 등 도심 생활 인프라 밀집<br />
-                  - 고려산·석모도·해변·갯벌 등 자연·레저 자원으로 쾌적한 주거환경<br />
-                  - 지상 차 없는 공원형 단지와 커뮤니티 특화(피트니스·실내골프·작은도서관 등)
+                  - KTX 천안아산역·서해선 복선전철(예정) 등 광역 교통망으로 서울·수도권 접근성 우수<br />
+                  - 아산시청·터미널·이마트·하나로마트 등 도심 생활 인프라 밀집<br />
+                  - 모종근린공원·온천천 등 쾌적한 자연·힐링 환경<br />
+                  - 지상 차 없는 공원형 단지와 커뮤니티 특화(피트니스·실내골프·북카페 등)
                 </div>
+
                 <div className={styles.text4}>
                   <a
                     href="#"
@@ -454,7 +456,7 @@ const Main = () => {
             {/* 입력 폼 */}
             <form
               className={styles.pcVisitForm}
-              action="https://formspree.io/f/mrbavdny"
+              action="https://formspree.io/f/mnnoeapp"
               method="POST"
             >
               <label htmlFor="name">
@@ -604,11 +606,12 @@ const Main = () => {
               아산 모종 서한이다음 POINT
             </div>
             <div className={styles.text3}>
-              - 아산대교·초지대교, 계양–아산 고속도로(추진)로 서울·김포·인천까지 편리한 접근성<br />
-              - 아산터미널·풍물시장·하나로마트·의료기관 등 도심 생활 인프라 밀집<br />
-              - 고려산·석모도·해변·갯벌 등 자연·레저 자원으로 쾌적한 주거환경<br />
-              - 지상 차 없는 공원형 단지와 커뮤니티 특화(피트니스·실내골프·작은도서관 등)
+              - KTX 천안아산역·서해선 복선전철(예정) 등 광역 교통망으로 서울·수도권 접근성 우수<br />
+              - 아산시청·터미널·이마트·하나로마트 등 도심 생활 인프라 밀집<br />
+              - 모종근린공원·온천천 등 쾌적한 자연·힐링 환경<br />
+              - 지상 차 없는 공원형 단지와 커뮤니티 특화(피트니스·실내골프·북카페 등)
             </div>
+
 
             <div className={styles.text4}>
               {/* 외부 링크대신 방문예약 클릭 시 팝업 호출 */}
@@ -738,7 +741,7 @@ const Main = () => {
 
               <form
                 className={styles.mobileVisitForm}
-                action="https://formspree.io/f/mrbavdny"
+                action="https://formspree.io/f/mnnoeapp"
                 method="POST"
               >
                 <label htmlFor="name">

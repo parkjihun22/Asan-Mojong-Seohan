@@ -18,43 +18,42 @@ import section2Image4 from "../../assets/LocationEnvironment/LocationEnvironment
 import section2Image5 from "../../assets/LocationEnvironment/LocationEnvironment1/session2-5.jpg";
 import section2Image6 from "../../assets/LocationEnvironment/LocationEnvironment1/session2-6.jpg";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
-
 const LocationSection = [
   {
     img: section2Image1,
-    titleText: "아산 도심 개발·관광 호재 중심지<br />탄탄한 미래가치 입지",
+    titleText: "모종샛들지구 중심<br />아산 핵심 생활권 입지",
     contentText:
-      "아산읍 중심 생활권·공공·상업 인프라 확충 기대<br />계양–아산 고속도로(추진) 등 교통 개선 모멘텀",
+      "아산시청·온양온천역·터미널 인접<br />풍부한 생활·행정 인프라로 완성된 중심 입지",
   },
   {
     img: section2Image2,
-    titleText: "의료 인프라 프리미엄<br />안심 건강케어 생활권",
+    titleText: "의료·교육 인프라 밀집<br />안심 학세권·메디컬 생활권",
     contentText:
-      "지역 종합병원·보건소·의원 밀집<br />건강검진·응급의료 접근성 우수",
+      "충무병원·아산병원 등 의료시설 인접<br />초·중·고 도보 통학권으로 교육환경 우수",
   },
   {
     img: section2Image3,
-    titleText: "대교 + 광역도로망 호재<br />서울·수도권 접근성 확대",
+    titleText: "광역 교통망 확충<br />서울·천안 접근성 강화",
     contentText:
-      "아산대교·초지대교로 김포·서울 진출입 수월<br />계양–아산 고속도로(추진)·순환도로 연계 기대",
+      "KTX·SRT 천안아산역 약 10분 거리<br />서해선 복선전철(예정)·국도 21호선 등 교통 호재",
   },
   {
     img: section2Image4,
-    titleText: "생활 인프라 접근성<br />원스톱 도심생활 기반",
+    titleText: "원스톱 도심 인프라<br />생활 편의시설 집약",
     contentText:
-      "아산터미널·풍물시장·하나로마트 인접<br />관공서·금융·카페거리 등 생활 편의 밀집",
+      "이마트·하나로마트·아산터미널 등 인접<br />카페거리·은행·공공기관 등 생활 인프라 완비",
   },
   {
     img: section2Image5,
-    titleText: "브랜드 대단지 스케일<br />1,325세대 이다음",
+    titleText: "브랜드 대단지 프리미엄<br />1,079세대 서한이다음 노블리스",
     contentText:
-      "지하 2층~지상 25층, 21개동 규모 공원형 단지<br />피트니스·실내골프·작은도서관 등 커뮤니티 특화",
+      "지하 2층~지상 29층, 총 10개동 규모<br />피트니스·골프·북카페 등 커뮤니티 특화",
   },
   {
     img: section2Image6,
-    titleText: "자연·휴식 인프라<br />여유로운 힐링 환경",
+    titleText: "자연과 함께하는 힐링 입지<br />쾌적한 주거 환경",
     contentText:
-      "고려산·석모도·해변·갯벌 등 풍부한 자연<br />산책·레저·관광을 누리는 주말 라이프",
+      "모종근린공원·온천천 인접<br />산책·레저를 즐기는 여유로운 일상",
   },
 ];
 
@@ -93,86 +92,85 @@ const LocationEnvironment1 = () => {
 
   return (
     <div className={styles.container}>
-        <Helmet>
-          {/* 페이지별 메타: title/description/og/canonical 만 관리 */}
-          <title>아산 모종 서한이다음 - 입지환경</title>
-          <meta
-            name="description"
-            content="아산읍 중심 입지, 아산 모종 서한이다음의 입지환경을 확인하세요. 아산대교·초지대교, 계양–아산 고속도로(추진) 등 광역 교통망과 터미널·시장·하나로마트 등 생활 인프라, 고려산·석모도 등 자연환경까지."
-          />
-          <meta name="robots" content="index,follow" />
-          <link rel="canonical" href="https://www.cssdesign.kr/LocationEnvironment/intro" />
+<Helmet>
+  {/* 페이지별 메타: title/description/og/canonical 만 관리 */}
+  <title>아산 모종 서한이다음 - 입지환경</title>
+  <meta
+    name="description"
+    content="충남 아산시 모종샛들지구 중심 입지, 아산 모종 서한이다음의 입지환경을 확인하세요. KTX 천안아산역, 서해선 복선전철(예정) 등 교통망과 시청·터미널·이마트·하나로마트 등 생활 인프라, 모종근린공원·온천천 등 쾌적한 자연환경까지."
+  />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://www.cssdesign.kr/LocationEnvironment/intro" />
 
-          {/* Open Graph */}
-          <meta property="og:type" content="website" />
-          <meta property="og:site_name" content="아산 모종 서한이다음" />
-          <meta property="og:title" content="아산 모종 서한이다음 - 입지환경" />
-          <meta
-            property="og:description"
-            content="아산 중심 입지: 아산대교·초지대교, 계양–아산 고속도로(추진) 등 교통망과 도심 생활 인프라, 고려산·석모도 자연환경을 누리는 아산 모종 서한이다음."
-          />
-          <meta property="og:url" content="https://www.cssdesign.kr/LocationEnvironment/intro" />
-          <meta property="og:image" content="https://www.cssdesign.kr/img/og/location.jpg" />
-          <meta property="og:image:width" content="1200" />
-          <meta property="og:image:height" content="630" />
+  {/* Open Graph */}
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="아산 모종 서한이다음" />
+  <meta property="og:title" content="아산 모종 서한이다음 - 입지환경" />
+  <meta
+    property="og:description"
+    content="KTX 천안아산역, 서해선 복선전철(예정) 등 교통망과 풍부한 생활 인프라, 모종근린공원·온천천 자연환경까지 누리는 아산 핵심 입지."
+  />
+  <meta property="og:url" content="https://www.cssdesign.kr/LocationEnvironment/intro" />
+  <meta property="og:image" content="https://www.cssdesign.kr/img/og/location.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
-          {/* Twitter */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="아산 모종 서한이다음 - 입지환경" />
-          <meta
-            name="twitter:description"
-            content="아산대교·초지대교, 계양–아산 고속도로(추진)로 확장되는 접근성, 터미널·시장·하나로마트 등 생활 인프라, 고려산·석모도 등 자연환경까지 갖춘 입지."
-          />
-          <meta name="twitter:image" content="https://www.cssdesign.kr/img/og/location.jpg" />
-          <meta name="twitter:url" content="https://www.cssdesign.kr/LocationEnvironment/intro" />
+  {/* Twitter */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="아산 모종 서한이다음 - 입지환경" />
+  <meta
+    name="twitter:description"
+    content="KTX 천안아산역, 서해선 복선전철(예정), 시청·터미널·이마트 등 생활 인프라와 모종근린공원·온천천이 어우러진 아산 모종 서한이다음의 입지환경."
+  />
+  <meta name="twitter:image" content="https://www.cssdesign.kr/img/og/location.jpg" />
+  <meta name="twitter:url" content="https://www.cssdesign.kr/LocationEnvironment/intro" />
 
-          {/* JSON-LD (대표 이미지/브레드크럼 포함) */}
-          <script type="application/ld+json">
-            {JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "WebPage",
-              "name": "아산 모종 서한이다음 - 입지환경",
-              "url": "https://www.cssdesign.kr/LocationEnvironment/intro",
-              "description":
-                "아산읍 중심 입지, 아산대교·초지대교 및 계양–아산 고속도로(추진) 교통망, 도심 생활 인프라와 고려산·석모도 등 자연환경을 갖춘 아산 모종 서한이다음의 입지환경.",
-              "primaryImageOfPage": {
-                "@type": "ImageObject",
-                "contentUrl": "https://www.cssdesign.kr/img/og/location.jpg",
-                "width": 1200,
-                "height": 630
-              },
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.cssdesign.kr/" },
-                  { "@type": "ListItem", "position": 2, "name": "입지환경", "item": "https://www.cssdesign.kr/LocationEnvironment/intro" }
-                ]
-              }
-            })}
-          </script>
-        </Helmet>
+  {/* JSON-LD (대표 이미지/브레드크럼 포함) */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "아산 모종 서한이다음 - 입지환경",
+      "url": "https://www.cssdesign.kr/LocationEnvironment/intro",
+      "description":
+        "충남 아산시 모종샛들지구 중심 입지, KTX 천안아산역과 서해선 복선전철(예정), 시청·터미널·이마트 등 풍부한 생활 인프라와 모종근린공원·온천천이 어우러진 쾌적한 환경.",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "contentUrl": "https://www.cssdesign.kr/img/og/location.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.cssdesign.kr/" },
+          { "@type": "ListItem", "position": 2, "name": "입지환경", "item": "https://www.cssdesign.kr/LocationEnvironment/intro" }
+        ]
+      }
+    })}
+  </script>
+</Helmet>
 
-        <Header isChanged={isScroll} />
-        <FixIcon />
+<Header isChanged={isScroll} />
+<FixIcon />
 
-        <Bener title="입지환경" />
+<Bener title="입지환경" />
+<MenuBar contents={menuContents} />
 
-        <MenuBar contents={menuContents} />
-        {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-        <h1 className={styles.screenReaderOnly}>
-          아산 모종 서한이다음 - 입지안내
-        </h1>
-        <p className={styles.screenReaderOnly}>
-          아산 모종 서한이다음의 입지 정보를 확인하세요. 아산대교·초지대교와
-          계양–아산 고속도로(추진)로 확장되는 광역 교통망, 아산터미널·풍물시장·하나로마트
-          등 생활 인프라, 고려산·석모도 등 자연환경을 두루 갖춘 아산 중심 생활권입니다.
-        </p>
+{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
+<h1 className={styles.screenReaderOnly}>아산 모종 서한이다음 - 입지안내</h1>
+<p className={styles.screenReaderOnly}>
+  아산 모종 서한이다음의 입지 정보를 확인하세요. KTX 천안아산역과 서해선 복선전철(예정) 등
+  광역 교통망, 아산시청·터미널·이마트·하나로마트 등 생활 인프라, 모종근린공원·온천천 등
+  자연환경을 모두 갖춘 아산 핵심 주거 입지입니다.
+</p>
 
-        <div className={styles.textBox}>
-          <div>갈수록 편리해질 아산</div>
-          <div>살수록 높아질 이다음</div>
-          <div>도시를 압도할 자부심, 아산 모종 서한이다음</div>
-        </div>
+<div className={styles.textBox}>
+  <div>갈수록 편리해질 아산</div>
+  <div>살수록 높아질 이다음</div>
+  <div>도시를 압도할 자부심, 아산 모종 서한이다음</div>
+</div>
+
 
 
       <img

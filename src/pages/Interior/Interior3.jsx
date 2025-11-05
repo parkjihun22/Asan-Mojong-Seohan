@@ -11,14 +11,14 @@ import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
 // 이미지 파일을 추가해야 합니다
-//import page1 from "../../assets/Interior/Interior3/page1.jpg";
+import page1 from "../../assets/Interior/Interior3/interior1_101a.jpg";
 import Ready from "../../components/Ready/Ready";
 
 const Interior3 = () => {
 	const menuContents = [
 		{ title: "84A", url: "/Interior/59A" },
-		{ title: "119A", url: "/Interior/84A" },
-		{ title: "119B", url: "/Interior/84B" },
+		{ title: "84B", url: "/Interior/84A" },
+		{ title: "101A", url: "/Interior/84B" },
 	];	
 
 	const [isScroll, setIsScroll] = useState(false);
@@ -62,18 +62,17 @@ const Interior3 = () => {
 
 			<div className={styles.textBox}>
 				<div>아산의 새로운 기준 위에</div>
-				<div>아산 모종 서한이다음가 자부심으로 찾아옵니다.</div>
+				<div>아산 모종 서한이다음의 자부심으로 찾아옵니다.</div>
 			</div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}
-			{/*<img
+			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
 				alt="아산 모종 서한이다음119타입 인테리어안내 image"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/>*/}
+			/>
 
-			<Ready />
 
 			<div className={styles.commonBox2}>
 				<div className={styles.notice}>

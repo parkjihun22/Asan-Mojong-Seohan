@@ -55,20 +55,21 @@ const menuArray = [
   {
     title: "세대안내",
     subMenu: [
-      { subTitle: "59A", subUrl: "/FloorPlan/59A" },
-      { subTitle: "59B", subUrl: "/FloorPlan/59B" },
-      { subTitle: "72A", subUrl: "/FloorPlan/84A" },
-      { subTitle: "72B", subUrl: "/FloorPlan/84B" },
-      { subTitle: "84A", subUrl: "/FloorPlan/114A" },
-      // { subTitle: "84C", subUrl: "/FloorPlan/114B" },
+      { subTitle: "84A", subUrl: "/FloorPlan/59A" },
+      { subTitle: "84B", subUrl: "/FloorPlan/59B" },
+      { subTitle: "84C", subUrl: "/FloorPlan/84A" },
+      { subTitle: "84D", subUrl: "/FloorPlan/84B" },
+      { subTitle: "101A", subUrl: "/FloorPlan/114A" },
+      { subTitle: "154A", subUrl: "/FloorPlan/114B" },
       // { subTitle: "E-모델하우스", subUrl: "/FloorPlan/Emodel" },
     ],
   },
   {
     title: "인테리어",
     subMenu: [
-      { subTitle: "59A", subUrl: "/Interior/59A" },
-      { subTitle: "72B", subUrl: "/Interior/84A" },
+      { subTitle: "84A", subUrl: "/Interior/59A" },
+      { subTitle: "84C", subUrl: "/Interior/84A" },
+      { subTitle: "101A", subUrl: "/Interior/84B" },
     ],
   },
   {

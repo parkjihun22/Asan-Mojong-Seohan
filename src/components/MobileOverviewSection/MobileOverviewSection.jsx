@@ -21,28 +21,37 @@ const items = [
     key: "overview",
     label: "사업개요",
     content: (
-      <ul className={styles.detailList}>
-        <li>
-          <strong>사업명</strong>
-          <span>아산 모종 서한이다음</span>
-        </li>
-        <li>
-          <strong>대지위치</strong>
-          <span>인천광역시 아산군 선원면 창리 501번지 일원</span>
-        </li>
-        <li>
-          <strong>건축규모</strong>
-          <span>지하 2층 ~ 지상 25층, 총 21개동</span>
-        </li>
-        <li>
-          <strong>주택형</strong>
-          <span>전용 59㎡ · 72㎡ · 84㎡ (중소형 위주)</span>
-        </li>
-        <li>
-          <strong>세대수</strong>
-          <span>총 1,325세대 (일반분양 371세대 포함)</span>
-        </li>
-      </ul>
+<ul className={styles.detailList}>
+  <li>
+    <strong>사업명</strong>
+    <span>아산 모종 서한이다음 노블리스</span>
+  </li>
+  <li>
+    <strong>대지위치</strong>
+    <span>충청남도 아산시 모종동 211번지 일원 (모종샛들지구 A-1블록)</span>
+  </li>
+  <li>
+    <strong>건축규모</strong>
+    <span>지하 2층 ~ 지상 29층, 총 10개동</span>
+  </li>
+  <li>
+    <strong>주택형</strong>
+    <span>전용 59㎡ · 84㎡ · 101㎡ · 154㎡ (실수요 중심)</span>
+  </li>
+  <li>
+    <strong>세대수</strong>
+    <span>총 1,079세대 (일반분양 969세대 / 임대 110세대)</span>
+  </li>
+  <li>
+    <strong>시공사</strong>
+    <span>㈜서한</span>
+  </li>
+  <li>
+    <strong>입주예정</strong>
+    <span>2028년 9월 예정</span>
+  </li>
+</ul>
+
     ),
   },
   
@@ -73,9 +82,10 @@ const items = [
         <div className={styles.premiumIntro}>
           <h3 className={styles.premiumTitle}>GREAT PREMIUM</h3>
           <p className={styles.premiumSubtitle}>
-            도안신도시 생활중심과 학세권을 누리는<br />
-            아산 모종 서한이다음프리미엄 라이프
-          </p>
+          모종샛들지구 중심 생활권과 학세권을 누리는<br />
+          아산 모종 서한이다음 프리미엄 라이프
+        </p>
+
         </div>
         {/* 슬라이더 */}
         <PremiumSlider />
@@ -88,39 +98,39 @@ function PremiumSlider() {
   const slides = [
     {
       img: slide1,
-      title: "아산 도심권 개발·관광 호재",
+      title: "아산 모종샛들지구 중심 입지",
       desc:
-        "아산읍 중심 생활권, 공공·상업 인프라 확충 기대<br/>계양–아산 고속도로(추진) 등 교통 개선 이슈<br/>자연·관광 자원과 연계한 주말·레저 수요",
+        "온양온천·천안·탕정 생활권을 모두 누리는 입지<br/>도심 속 풍부한 생활 인프라와 쾌적한 자연환경<br/>아산의 새로운 중심, 모종샛들지구 프리미엄",
     },
     {
       img: slide2,
-      title: "의료·건강 인프라 접근성",
+      title: "편리한 교통 네트워크",
       desc:
-        "지역 종합병원·보건소 등 의료 인프라 인접<br/>검진·응급 대응 편의성 아산<br/>안심하고 누리는 건강 생활권",
+        "KTX 천안아산역·온양온천역 인접, 전국 어디든 빠르게<br/>아산IC·탕정IC 등 고속도로 접근 용이<br/>GTX-C(예정)·광역도로 확충으로 교통 가치 상승",
     },
     {
       img: slide3,
-      title: "광역 교통망 개선 기대",
+      title: "풍부한 생활·교육 인프라",
       desc:
-        "아산대교·초지대교로 김포·서울 진출입 수월<br/>계양–아산 고속도로(추진)·순환도로 연계성 확대<br/>(검토 이슈) 지하철 5호선 김포·검단 연장 논의",
+        "모종초·모종중 도보권 학세권 입지<br/>이마트·롯데마트·농협 하나로마트 인접<br/>충무병원 등 의료·행정·문화 인프라 완비",
     },
     {
       img: slide4,
-      title: "교육·생활 인프라 집약",
+      title: "개발 호재로 미래가치 상승",
       desc:
-        "초·중·고 통학 여건 우수<br/>하나로마트·시장·터미널 등 도심 생활권<br/>쇼핑·문화·행정 인프라를 한 걸음에",
+        "탕정2지구·온양온천지구 도시개발사업 추진<br/>삼성디스플레이시티·스마트밸리 산업단지 인접<br/>GTX-C 연장 검토 등 교통·산업 시너지 기대",
     },
     {
       img: slide5,
-      title: "아산 최대 1,325세대 대단지",
+      title: "아산 최대 규모 1,079세대 대단지",
       desc:
-        "지하 2층~지상 25층, 총 21개동 규모<br/>전용 59·72·84㎡ 실속형 타입 구성",
+        "지하 2층~지상 29층, 총 10개동 규모<br/>전용 59·84·101·154㎡ 다채로운 타입 구성<br/>남향 위주 4Bay 판상형 설계로 채광·통풍 우수",
     },
     {
       img: slide6,
-      title: "이다음 브랜드 가치",
+      title: "서한이다음 노블리스 브랜드 가치",
       desc:
-        "지상 차 없는 공원형 단지·커뮤니티 특화<br/>두산건설 시공, 2028년 3월 입주(예정)",
+        "교보문고 북큐레이션 서비스 등 차별화된 커뮤니티<br/>실내체육관·게스트하우스·수영장 등 프리미엄 시설<br/>㈜서한 시공, 2028년 9월 입주 예정",
     },
   ];
   

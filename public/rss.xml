@@ -1,41 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>아산 모종 서한이다음</title>
     <link>https://www.cssdesign.kr/</link>
-    <description>아산 모종 서한이다음 │ ☎️(대표)1533-8848 │ 모종 서한이다음 │ 견본주택 │ 모델하우스 │ 위치 │ 청약 │ 분양 │ 분양가 │ 공급정보 │ 잔여세대 문의 │ 고객센터 │ 방문예약</description>
+    <description>아산 모종 서한이다음 │ 견본주택 │ 위치 │ 청약 │ 분양 │ 공급정보 │ 잔여세대 문의 │ 고객센터 │ 방문예약</description>
     <language>ko-KR</language>
     <atom:link href="https://www.cssdesign.kr/rss.xml" rel="self" type="application/rss+xml"/>
 
+    <!-- 홍보센터 · 상담 -->
     <item>
       <title>모바일 상담 예약</title>
       <link>https://www.cssdesign.kr/Promotion/Customer</link>
       <guid isPermaLink="true">https://www.cssdesign.kr/Promotion/Customer</guid>
-      <description><![CDATA[아산 중심 입지의 ‘아산 모종 서한이다음’. 분양·입지·단지·평면·인테리어·언론보도와 상담예약 정보를 제공합니다. 아산대교·초지대교, 계양–아산 고속도로(추진) 등 교통 호재로 미래가치 기대.]]></description>
+      <description><![CDATA[아산 모종 서한이다음 관심고객 등록 시 견본주택 방문예약, 청약·분양 일정, 현장 위치 등 최신 정보를 우선 안내해드립니다.]]></description>
       <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
+    <!-- 브랜드소개 -->
     <item>
       <title>브랜드 소개</title>
       <link>https://www.cssdesign.kr/Brand/intro</link>
       <guid isPermaLink="true">https://www.cssdesign.kr/Brand/intro</guid>
-      <description><![CDATA[이다음 브랜드의 주거 철학과 디자인 가치, 품질 기준을 소개합니다.]]></description>
+      <description><![CDATA[서한이다음 노블리스의 주거 철학과 품질 기준, 차별화된 커뮤니티 가치를 소개합니다.]]></description>
       <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
-      <title>홍보영상</title>
+      <title>홍보 영상</title>
       <link>https://www.cssdesign.kr/Brand/video</link>
       <guid isPermaLink="true">https://www.cssdesign.kr/Brand/video</guid>
-      <description><![CDATA[아산 입지, 교통 호재(아산대교·초지대교/계양–아산 고속도로 추진), 생활 인프라와 단지 가치를 영상으로 확인하세요.]]></description>
+      <description><![CDATA[공원형 단지 설계, 커뮤니티, 모종샛들지구 중심 생활 인프라와 광역 접근성을 영상으로 확인하세요.]]></description>
       <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
+    <!-- 사업개요 -->
     <item>
       <title>사업 안내</title>
       <link>https://www.cssdesign.kr/BusinessGuide/intro</link>
       <guid isPermaLink="true">https://www.cssdesign.kr/BusinessGuide/intro</guid>
-      <description><![CDATA[인천 아산군 중심 생활권. 공원형 대단지와 커뮤니티, 광역 교통망 및 자연 인프라를 갖춘 사업 개요를 안내합니다.]]></description>
+      <description><![CDATA[충남 아산시 모종샛들지구 A-1블록, 총 1,079세대(지하 2층~지상 29층·10개동). 전용 59·84·101·154㎡ 구성의 사업 개요를 안내합니다.]]></description>
       <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
@@ -43,47 +47,25 @@
       <title>분양 일정</title>
       <link>https://www.cssdesign.kr/BusinessGuide/plan</link>
       <guid isPermaLink="true">https://www.cssdesign.kr/BusinessGuide/plan</guid>
-      <description><![CDATA[모델하우스 오픈, 청약 접수, 당첨자 발표, 계약 등 분양 일정을 한눈에 확인하세요.]]></description>
+      <description><![CDATA[견본주택 오픈, 특별공급·1·2순위 청약, 당첨자 발표, 정당계약, 입주(예정) 일정을 한눈에 확인하세요.]]></description>
       <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
-    <item>
-      <title>청약 방법 안내</title>
-      <link>https://www.cssdesign.kr/SalesInfo/SubscriptionGuide</link>
-      <guid isPermaLink="true">https://www.cssdesign.kr/SalesInfo/SubscriptionGuide</guid>
-      <description><![CDATA[온라인 청약 절차와 유의사항, 자주 묻는 질문을 정리했습니다.]]></description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
-    </item>
-
-    <item>
-      <title>청약 안내문</title>
-      <link>https://www.cssdesign.kr/SalesInfo/guide</link>
-      <guid isPermaLink="true">https://www.cssdesign.kr/SalesInfo/guide</guid>
-      <description><![CDATA[청약 자격·방법·필요서류와 당첨자 제출서류 일정을 상세 안내합니다.]]></description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
-    </item>
-
+    <!-- 분양안내 (주석 제외: 모집공고만 노출) -->
     <item>
       <title>모집공고 안내</title>
       <link>https://www.cssdesign.kr/SalesInfo/announcement</link>
       <guid isPermaLink="true">https://www.cssdesign.kr/SalesInfo/announcement</guid>
-      <description><![CDATA[공급 규모·금액·자격요건·정당계약 일정 등 공식 모집공고 정보를 제공합니다.]]></description>
+      <description><![CDATA[공급 규모·금액, 자격요건, 청약·정당계약 일정 등 공식 모집공고 정보를 제공합니다.]]></description>
       <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
+    <!-- 입지환경 -->
     <item>
-      <title>인지세 납부 안내</title>
-      <link>https://www.cssdesign.kr/SalesInfo/stampTax</link>
-      <guid isPermaLink="true">https://www.cssdesign.kr/SalesInfo/stampTax</guid>
-      <description><![CDATA[계약 시 인지세 납부 기준과 금액, 준비 절차를 간단히 안내합니다.]]></description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
-    </item>
-
-    <item>
-      <title>입지 환경</title>
+      <title>입지안내</title>
       <link>https://www.cssdesign.kr/LocationEnvironment/intro</link>
       <guid isPermaLink="true">https://www.cssdesign.kr/LocationEnvironment/intro</guid>
-      <description><![CDATA[아산 중심 입지. 아산대교·초지대교, 계양–아산 고속도로(추진) 등 교통망과 아산터미널·풍물시장·하나로마트 등 생활 인프라, 고려산·석모도 등 자연환경을 갖췄습니다.]]></description>
+      <description><![CDATA[KTX 천안아산역, 서해선 복선전철(예정) 등 교통망과 시청·터미널·이마트 등 생활 인프라, 모종근린공원·온천천이 어우러진 아산 핵심 입지.]]></description>
       <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
@@ -91,23 +73,24 @@
       <title>프리미엄</title>
       <link>https://www.cssdesign.kr/LocationEnvironment/primium</link>
       <guid isPermaLink="true">https://www.cssdesign.kr/LocationEnvironment/primium</guid>
-      <description><![CDATA[브랜드 대단지·공원형 단지 설계, 교통 모멘텀(아산대교·초지대교/계양–아산 고속도로 추진), 도심 생활 인프라, 고려산·석모도 등 자연·레저 프리미엄을 소개합니다.]]></description>
+      <description><![CDATA[브랜드 대단지, 공원형 단지 설계, 광역 교통망, 풍부한 생활·교육 인프라, 자연·레저 환경까지 더한 프리미엄을 소개합니다.]]></description>
       <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
+    <!-- 단지안내 -->
     <item>
       <title>단지 배치도</title>
       <link>https://www.cssdesign.kr/ComplexGuide/intro</link>
       <guid isPermaLink="true">https://www.cssdesign.kr/ComplexGuide/intro</guid>
-      <description><![CDATA[단지 배치·조경·보행 동선 계획을 확인하고, 쾌적한 생활환경과 안전한 동선 설계를 살펴보세요.]]></description>
+      <description><![CDATA[동별 배치, 조경, 주차·보행 동선 등 공원형 단지 계획을 확인하세요. (총 10개동, 지상 29층)]]></description>
       <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
-      <title>동·호수 배치</title>
+      <title>호수 배치도</title>
       <link>https://www.cssdesign.kr/ComplexGuide/detailintro</link>
       <guid isPermaLink="true">https://www.cssdesign.kr/ComplexGuide/detailintro</guid>
-      <description><![CDATA[동·호수 배치 정보를 제공합니다. 세대 선택과 채광·조망 확인에 유용한 안내입니다.]]></description>
+      <description><![CDATA[동·호수 배치와 라인·스택 구성, 코어 동선 정보를 제공해 합리적인 세대 선택을 돕습니다.]]></description>
       <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
@@ -115,79 +98,98 @@
       <title>커뮤니티</title>
       <link>https://www.cssdesign.kr/ComplexGuide/community</link>
       <guid isPermaLink="true">https://www.cssdesign.kr/ComplexGuide/community</guid>
-      <description><![CDATA[피트니스, 실내 골프연습장, 작은도서관(북카페), 주민 라운지, 어린이집, 게스트하우스 등 커뮤니티 시설과 이용 안내입니다.]]></description>
+      <description><![CDATA[피트니스, 실내골프, 북카페, 주민라운지 등 커뮤니티 특화 시설 소개 및 이용 안내입니다.]]></description>
       <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
-    <item>
-      <title>59A</title>
-      <link>https://www.cssdesign.kr/FloorPlan/59A</link>
-      <guid isPermaLink="true">https://www.cssdesign.kr/FloorPlan/59A</guid>
-      <description><![CDATA[59A 중소형 평형의 실용적 평면 구성과 수납·동선 계획을 소개합니다.]]></description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
-    </item>
-
+    <!-- 세대안내 (헤더의 URL을 그대로 사용) -->
     <item>
       <title>84A</title>
-      <link>https://www.cssdesign.kr/FloorPlan/84A</link>
-      <guid isPermaLink="true">https://www.cssdesign.kr/FloorPlan/84A</guid>
-      <description><![CDATA[전용 84A 타입의 평면 정보와 공간 활용 포인트를 확인하세요.]]></description>
+      <link>https://www.cssdesign.kr/FloorPlan/59A</link>
+      <guid isPermaLink="true">https://www.cssdesign.kr/FloorPlan/59A</guid>
+      <description><![CDATA[84A 타입(라우트: /FloorPlan/59A) 평면 정보와 공간 활용 포인트를 확인하세요.]]></description>
       <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
       <title>84B</title>
-      <link>https://www.cssdesign.kr/FloorPlan/84B</link>
-      <guid isPermaLink="true">https://www.cssdesign.kr/FloorPlan/84B</guid>
-      <description><![CDATA[전용 84B 타입의 평면 정보와 공간 활용 포인트를 확인하세요.]]></description>
+      <link>https://www.cssdesign.kr/FloorPlan/59B</link>
+      <guid isPermaLink="true">https://www.cssdesign.kr/FloorPlan/59B</guid>
+      <description><![CDATA[84B 타입(라우트: /FloorPlan/59B) 평면 정보와 공간 활용 포인트를 확인하세요.]]></description>
       <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
       <title>84C</title>
-      <link>https://www.cssdesign.kr/FloorPlan/84C</link>
-      <guid isPermaLink="true">https://www.cssdesign.kr/FloorPlan/84C</guid>
-      <description><![CDATA[전용 84C 타입의 평면 정보와 공간 활용 포인트를 확인하세요.]]></description>
+      <link>https://www.cssdesign.kr/FloorPlan/84A</link>
+      <guid isPermaLink="true">https://www.cssdesign.kr/FloorPlan/84A</guid>
+      <description><![CDATA[84C 타입(라우트: /FloorPlan/84A) 평면 정보와 공간 활용 포인트를 확인하세요.]]></description>
       <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
       <title>84D</title>
-      <link>https://www.cssdesign.kr/FloorPlan/84D</link>
-      <guid isPermaLink="true">https://www.cssdesign.kr/FloorPlan/84D</guid>
-      <description><![CDATA[전용 84D 타입의 평면 정보와 공간 활용 포인트를 확인하세요.]]></description>
+      <link>https://www.cssdesign.kr/FloorPlan/84B</link>
+      <guid isPermaLink="true">https://www.cssdesign.kr/FloorPlan/84B</guid>
+      <description><![CDATA[84D 타입(라우트: /FloorPlan/84B) 평면 정보와 공간 활용 포인트를 확인하세요.]]></description>
       <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
-      <title>E-모델하우스</title>
-      <link>https://www.cssdesign.kr/FloorPlan/Emodel</link>
-      <guid isPermaLink="true">https://www.cssdesign.kr/FloorPlan/Emodel</guid>
-      <description><![CDATA[온라인으로 만나는 E-모델하우스. 방문 전 단지·평면·인테리어를 가상 체험할 수 있는 최신 시스템입니다.]]></description>
+      <title>101A</title>
+      <link>https://www.cssdesign.kr/FloorPlan/114A</link>
+      <guid isPermaLink="true">https://www.cssdesign.kr/FloorPlan/114A</guid>
+      <description><![CDATA[101A 타입(라우트: /FloorPlan/114A) 평면 정보와 공간 활용 포인트를 확인하세요.]]></description>
       <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
-      <title>인테리어</title>
+      <title>154A</title>
+      <link>https://www.cssdesign.kr/FloorPlan/114B</link>
+      <guid isPermaLink="true">https://www.cssdesign.kr/FloorPlan/114B</guid>
+      <description><![CDATA[154A 타입(라우트: /FloorPlan/114B) 평면 정보와 공간 활용 포인트를 확인하세요.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
+    </item>
+
+    <!-- 인테리어 -->
+    <item>
+      <title>인테리어 84A</title>
       <link>https://www.cssdesign.kr/Interior/59A</link>
       <guid isPermaLink="true">https://www.cssdesign.kr/Interior/59A</guid>
-      <description><![CDATA[59A㎡ 인테리어 콘셉트와 마감·옵션 스타일을 확인하세요.]]></description>
+      <description><![CDATA[84A(라우트: /Interior/59A) 인테리어 콘셉트와 마감·옵션 스타일을 확인하세요.]]></description>
       <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
+      <title>인테리어 84C</title>
+      <link>https://www.cssdesign.kr/Interior/84A</link>
+      <guid isPermaLink="true">https://www.cssdesign.kr/Interior/84A</guid>
+      <description><![CDATA[84C 인테리어 콘셉트와 마감·옵션 스타일을 확인하세요.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>인테리어 101A</title>
+      <link>https://www.cssdesign.kr/Interior/84B</link>
+      <guid isPermaLink="true">https://www.cssdesign.kr/Interior/84B</guid>
+      <description><![CDATA[101A(라우트: /Interior/84B) 인테리어 콘셉트와 마감·옵션 스타일을 확인하세요.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
+    </item>
+
+    <!-- 홍보센터 -->
+    <item>
       <title>언론보도</title>
-      <link>https://www.cssdesign.kr/아산 모종 서한이다음/press</link>
-      <guid isPermaLink="true">https://www.cssdesign.kr/아산 모종 서한이다음/press</guid>
+      <link>https://www.cssdesign.kr/Promotion/Press</link>
+      <guid isPermaLink="true">https://www.cssdesign.kr/Promotion/Press</guid>
       <description><![CDATA[아산 모종 서한이다음 언론보도 모음. 분양·입지·개발 호재 등 최신 기사와 보도자료를 확인하세요.]]></description>
       <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
-      <title>관심고객 등록</title>
+      <title>관심고객등록</title>
       <link>https://www.cssdesign.kr/Promotion/Customer</link>
       <guid isPermaLink="true">https://www.cssdesign.kr/Promotion/Customer</guid>
-      <description><![CDATA[관심고객 등록 시 청약·모델하우스·일정 등 주요 안내를 우선 제공해 드립니다.]]></description>
+      <description><![CDATA[관심고객 등록 시 청약·견본주택·일정 등 주요 안내를 우선 제공해드립니다.]]></description>
       <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 

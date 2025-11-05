@@ -11,15 +11,16 @@ import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
 
-import page1 from "../../assets/Interior/Interior1/page1.jpg";
+import page1 from "../../assets/Interior/Interior1/interior1_84a.jpg";
 
 import Ready from "../../components/Ready/Ready";
 
 
 const Interior1 = () => {
   const menuContents = [
-    { title: "59A", url: "/Interior/59A" },
-    { title: "72B", url: "/Interior/84A" },
+    { title: "84A", url: "/Interior/59A" },
+    { title: "84B", url: "/Interior/84A" },
+    { title: "101A", url: "/Interior/84B" },
   ];
 
   const [isScroll, setIsScroll] = useState(false);
@@ -65,9 +66,9 @@ const Interior1 = () => {
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
 
 			<div className={styles.textBox}>
-				<div>아산의 새로운 기준 위에</div>
-				<div>아산 모종 서한이다음가 자부심으로 찾아옵니다.</div>
-			</div>
+      <div>아산의 새로운 기준 위에</div>
+        <div>아산 모종 서한이다음이 자부심으로 찾아옵니다.</div>
+      </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
       <img

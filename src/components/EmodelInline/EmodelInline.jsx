@@ -10,7 +10,7 @@ const menuContents = [
 ];
 
 const vrUrls = {
-  // "도안1,2단지": "https://www.hillstate.co.kr/upload/2024/07/20240719023756017530/tour.html",
+  // "도안1,2단지": "https://asan-seohan.com/evr/A84A.html",
   // "도안3,5단지": "https://www.hillstate.co.kr/upload/2024/11/20241107065049013129/tour.html",
   // "84A": "https://www.prugio.com/hb/2025/onecluster/vr/84a.html",
   // "84B": "https://www.prugio.com/hb/2025/onecluster/vr/84b.html",

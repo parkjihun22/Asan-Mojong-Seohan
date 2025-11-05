@@ -2,20 +2,21 @@ import React, { useEffect, useState } from "react";
 import { AiOutlineRight, AiOutlineLeft } from "react-icons/ai";
 import { useMediaQuery } from "react-responsive";
 import styles from "./UnitplanBox.module.scss";
-import room59A from "../../assets/UnitplanBox/unit_59a.jpg";
-import room59B from "../../assets/UnitplanBox/unit_59b.jpg";
-import room72A from "../../assets/UnitplanBox/unit_72a.jpg";
-import room72B from "../../assets/UnitplanBox/unit_72b.jpg";
 import room84A from "../../assets/UnitplanBox/unit_84a.jpg";
-// import room119A from "../../assets/UnitplanBox/unit_84d.jpg";
+import room84B from "../../assets/UnitplanBox/unit_84b.jpg";
+import room84C from "../../assets/UnitplanBox/unit_84c.jpg";
+import room84D from "../../assets/UnitplanBox/unit_84d.jpg";
+import room101A from "../../assets/UnitplanBox/unit_101a.jpg";
+import room154A from "../../assets/UnitplanBox/unit_154a.jpg";
 
-
+    
 const contents = [
-    { type: "59A㎡",   src: room59A },
-    { type: "59B㎡",   src: room59B },
-    { type: "72A㎡",  src: room72A },
-    { type: "72B㎡",  src: room72B },
-    { type: "84A㎡",  src: room84A },
+    { type: "84A㎡",   src: room84A },
+    { type: "84B㎡",   src: room84B },
+    { type: "84C㎡",  src: room84C },
+    { type: "84D㎡",  src: room84D },
+    { type: "101A㎡",  src: room101A },
+    { type: "154A㎡",  src: room154A },
   ];
 
 

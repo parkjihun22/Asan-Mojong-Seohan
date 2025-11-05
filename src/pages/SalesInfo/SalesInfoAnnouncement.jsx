@@ -58,7 +58,7 @@ const ComplexGuide1 = () => {
   // PDF 새 창으로 열기 함수
   const openPDF = () => {
     setIsLoading(true); // PDF 로딩 시작
-    const pdfUrl = "/announcement.pdf"; // 실제 PDF 파일 경로로 수정
+    const pdfUrl = "/아산모종서한이다음노블리스_입주자모집공고_축약.pdf"; // 실제 PDF 파일 경로로 수정
     const newWindow = window.open(pdfUrl, "_blank");
 
     // PDF 로딩 후 로딩 상태 해제

@@ -51,45 +51,47 @@ const ComplexGuide1 = () => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        <title>아산 모종 서한이다음 - 동·호수 배치</title>
-        <meta
-          name="description"
-          content="아산 모종 서한이다음 동·호수 배치도를 통해 세대별 위치와 조망, 일조 방향, 프라이버시를 고려한 설계를 확인하세요. 라인·스택 구성 및 코어 동선 정보를 한눈에."
-        />
-        <link rel="canonical" href="https://www.cssdesign.kr/ComplexGuide/detailintro" />
-        <meta name="robots" content="index,follow" />
+<Helmet>
+  {/* 페이지별 메타 */}
+  <title>아산 모종 서한이다음 - 동·호수 배치</title>
+  <meta
+    name="description"
+    content="아산 모종 서한이다음 동·호수 배치도를 통해 세대별 위치와 조망, 일조 방향, 프라이버시를 고려한 설계를 확인하세요. 라인·스택 구성 및 코어 동선 정보를 한눈에."
+  />
+  <link rel="canonical" href="https://www.cssdesign.kr/ComplexGuide/detailintro" />
+  <meta name="robots" content="index,follow" />
 
-        {/* Open Graph */}
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="아산 모종 서한이다음" />
-        <meta property="og:title" content="아산 모종 서한이다음 - 동·호수 배치" />
-        <meta
-          property="og:description"
-          content="세대별 위치, 조망·일조, 프라이버시를 고려한 동·호수 배치를 확인하세요. 라인·스택 구성과 코어 동선 안내."
-        />
-        <meta property="og:url" content="https://www.cssdesign.kr/ComplexGuide/detailintro" />
-        <meta property="og:image" content="https://www.cssdesign.kr/img/og/complex.jpg" />
-      </Helmet>
+  {/* Open Graph */}
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="아산 모종 서한이다음" />
+  <meta property="og:title" content="아산 모종 서한이다음 - 동·호수 배치" />
+  <meta
+    property="og:description"
+    content="세대별 위치, 조망·일조, 프라이버시를 고려한 동·호수 배치를 확인하세요. 라인·스택 구성과 코어 동선 안내."
+  />
+  <meta property="og:url" content="https://www.cssdesign.kr/ComplexGuide/detailintro" />
+  <meta property="og:image" content="https://www.cssdesign.kr/img/og/complex.jpg" />
+</Helmet>
 
+<Header isChanged={isScroll} />
+<FixIcon />
+<Bener title="단지안내" />
+<MenuBar contents={menuContents} />
 
-      <Header isChanged={isScroll} />
-      <FixIcon />
-      <Bener title="단지안내" />
-      <MenuBar contents={menuContents} />
+<h1 className={styles.screenReaderOnly}>
+  아산 모종 서한이다음 - 동·호수 배치
+</h1>
+<p className={styles.screenReaderOnly}>
+  본 페이지에서는 아산 모종 서한이다음의 동·호수 배치와 세대별 위치, 라인·스택 구성,
+  코어(엘리베이터/계단) 동선 등을 제공합니다. 조망과 일조, 프라이버시 요소를 함께 확인해
+  합리적인 주거 선택에 도움을 드립니다.
+</p>
 
-      <h1 className={styles.screenReaderOnly}>
-        아산 모종 서한이다음 - 동·호수 배치
-      </h1>
-      <p className={styles.screenReaderOnly}>
-        본 페이지에서는 동·호수 배치와 세대별 위치, 라인·스택 구성, 코어(엘리베이터/계단) 동선 등을 제공합니다.
-        원하는 호수를 빠르게 찾고 조망과 일조, 프라이버시 요소를 비교해 합리적인 선택에 도움을 드립니다.
-      </p>
+<div className={styles.textBox}>
+  <div>아산의 새로운 기준 위에</div>
+  <div>아산 모종 서한이다음이 자부심으로 찾아옵니다.</div>
+</div>
 
-      <div className={styles.textBox}>
-        <div>아산의 새로운 기준 위에</div>
-        <div>아산 모종 서한이다음가 자부심으로 찾아옵니다.</div>
-      </div>
 
 
       {/* 이미지에 애니메이션 효과 추가 */}

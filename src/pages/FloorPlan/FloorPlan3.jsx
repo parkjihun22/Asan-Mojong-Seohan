@@ -10,18 +10,18 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
-import page1 from "../../assets/FloorPlan/FloorPlan3/unit_72a.jpg"
+import page1 from "../../assets/FloorPlan/FloorPlan3/unit_84c.jpg"
 
 
 
 const FloorPlan3 = () => {
 	const menuContents = [
-		{ title: "59A", url: "/FloorPlan/59A" },
-		{ title: "59B", url: "/FloorPlan/59B" },
-		{ title: "72A", url: "/FloorPlan/84A" },
-		{ title: "72B", url: "/FloorPlan/84B" },
-		{ title: "84A", url: "/FloorPlan/114A" },
-    // { title: "84D", url: "/FloorPlan/114B" },
+		{ title: "84A", url: "/FloorPlan/59A" },
+		{ title: "84B", url: "/FloorPlan/59B" },
+		{ title: "84C", url: "/FloorPlan/84A" },
+		{ title: "84D", url: "/FloorPlan/84B" },
+		{ title: "101A", url: "/FloorPlan/114A" },
+    { title: "154A", url: "/FloorPlan/114B" },
 		// { title: "세대안내영상", url: "/FloorPlan/videos" }, // 세대안내영상 링크
 		// { title: "E-모델하우스", url: "/FloorPlan/Emodel" },
 	
@@ -68,9 +68,9 @@ const FloorPlan3 = () => {
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
-				<div>아산의 새로운 기준 위에</div>
-				<div>아산 모종 서한이다음가 자부심으로 찾아옵니다.</div>
-			</div>
+			<div>아산의 새로운 기준 위에</div>
+        <div>아산 모종 서한이다음이 자부심으로 찾아옵니다.</div>
+      </div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}
 			<img

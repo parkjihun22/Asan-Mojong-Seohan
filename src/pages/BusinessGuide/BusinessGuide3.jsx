@@ -62,42 +62,12 @@ const BusinessGuide2 = () => {
 
 	return (
 		<div className={styles.container}>
-				<Helmet>
-				{/* 필수 메타 */}
-				<title>아산 모종 서한이다음 - 계약서류안내</title>
-				<meta
-					name="description"
-					content="아산 모종 서한이다음 분양(청약) 계약을 위한 서류 안내. 신분증, 주민등록등본, 인감증명서 등 필수 제출서류와 준비 절차, 유의사항을 빠르게 확인하세요."
-				/>
-				<meta name="robots" content="index,follow" />
-				<link
-					rel="canonical"
-					href="https://www.cssdesign.kr/BusinessGuide/documents"
-				/>
-
-				{/* Open Graph */}
-				<meta property="og:type" content="website" />
-				<meta property="og:site_name" content="아산 모종 서한이다음" />
-				<meta property="og:title" content="아산 모종 서한이다음 - 계약서류안내" />
-				<meta
-					property="og:description"
-					content="아산 모종 서한이다음 계약서류 안내: 신분증·주민등록등본·인감증명서 등 필수 서류와 준비 절차, 유의사항을 확인하세요."
-				/>
-				<meta property="og:url" content="https://www.cssdesign.kr/BusinessGuide/documents" />
-				<meta property="og:image" content="https://www.cssdesign.kr/Main1.png" />
-				</Helmet>
 
 
 				<Header isChanged={isScroll} />
 				<FixIcon />
 				<Bener title="계약서류안내" />
 				<MenuBar contents={menuContents} />
-				{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-				<h1 className={styles.screenReaderOnly}>아산 모종 서한이다음 - 계약서류안내</h1>
-				<p className={styles.screenReaderOnly}>
-				본 페이지는 분양(청약) 당첨 후 계약 체결을 위해 필요한 서류를 안내합니다.
-				제출 서류 목록과 준비 방법, 제출 기한 및 유의사항을 확인해 정확하고 빠르게 진행하세요.
-				</p>
 
 				<div className={styles.textBox}>
 				<div>아산의 새로운 기준 위에</div>

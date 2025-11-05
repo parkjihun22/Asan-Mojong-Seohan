@@ -11,24 +11,23 @@ import { Helmet } from "react-helmet-async";
 
 const Emodel = () => {
   const menuContents = [
-    // { title: "1,2단지", key: "1,2단지" },
-    // { title: "3,5단지", key: "3,5단지" },
     // { title: "84A", key: "84A" },
-    // { title: "84B", key: "84B" },
+    // { title: "84C", key: "84C" },
+    // { title: "101A", key: "101A" },
   ];
 
   const vrUrls = {
-    // "1,2단지": "https://www.hillstate.co.kr/upload/2024/07/20240719023756017530/tour.html",
-    // "3,5단지": "https://www.hillstate.co.kr/upload/2024/11/20241107065049013129/tour.html",
-    // "84A": "https://www.prugio.com/hb/2025/onecluster/vr/84a.html",
-    // "84B": "https://www.prugio.com/hb/2025/onecluster/vr/84b.html",
+    // "84A": "https://asan-seohan.com/evr/A84A.html",
+    // "84C": "https://asan-seohan.com/evr/A84C.html",
+    // "101A": "https://asan-seohan.com/evr/A101A.html",
+
   };
 
 
 
 
 
-  const [selectedType, setSelectedType] = useState("1,2단지");
+  const [selectedType, setSelectedType] = useState("84A");
   const { pathname } = useLocation();
   const [isScroll, setIsScroll] = useState(false);
 
@@ -46,64 +45,65 @@ const Emodel = () => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        {/* 핵심 SEO 페이지: E-모델하우스 */}
-        <title>아산 모종 서한이다음 - E-모델하우스</title>
-        <meta
-          name="description"
-          content="아산 모종 서한이다음 E-모델하우스를 온라인에서 편리하게 둘러보세요. VR 가상 투어와 전용 59·72·84㎡ 세대별 평면도, 인테리어를 실감 나게 확인하실 수 있습니다."
-        />
-        <meta name="robots" content="index,follow" />
-        <link rel="canonical" href="https://www.cssdesign.kr/FloorPlan/Emodel" />
+<Helmet>
+  {/* 핵심 SEO 페이지: E-모델하우스 */}
+  <title>아산 모종 서한이다음 - E-모델하우스</title>
+  <meta
+    name="description"
+    content="아산 모종 서한이다음 E-모델하우스를 온라인에서 편리하게 둘러보세요. VR 가상 투어와 전용 59·84·101·154㎡ 세대별 평면도 및 인테리어를 실감 나게 확인하실 수 있습니다."
+  />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://www.cssdesign.kr/FloorPlan/Emodel" />
 
-        {/* Open Graph */}
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="아산 모종 서한이다음" />
-        <meta property="og:title" content="아산 모종 서한이다음 - E-모델하우스" />
-        <meta
-          property="og:description"
-          content="아산 모종 서한이다음 E-모델하우스: VR 투어와 세대별 평면도·인테리어를 통해 실제 같은 공간을 체험하세요."
-        />
-        <meta property="og:url" content="https://www.cssdesign.kr/FloorPlan/Emodel" />
-        <meta property="og:image" content="https://www.cssdesign.kr/img/og/emodel.jpg" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
+  {/* Open Graph */}
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="아산 모종 서한이다음" />
+  <meta property="og:title" content="아산 모종 서한이다음 - E-모델하우스" />
+  <meta
+    property="og:description"
+    content="아산 모종 서한이다음 E-모델하우스: VR 투어와 세대별 평면도·인테리어를 통해 실제 같은 공간을 온라인에서 체험하세요."
+  />
+  <meta property="og:url" content="https://www.cssdesign.kr/FloorPlan/Emodel" />
+  <meta property="og:image" content="https://www.cssdesign.kr/img/og/emodel.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="아산 모종 서한이다음 - E-모델하우스" />
-        <meta
-          name="twitter:description"
-          content="아산 모종 서한이다음 E-모델하우스를 온라인으로 체험하세요. VR 투어와 전용 59·72·84㎡ 평면도, 인테리어를 한눈에."
-        />
-        <meta name="twitter:image" content="https://www.cssdesign.kr/img/og/emodel.jpg" />
-        <meta name="twitter:url" content="https://www.cssdesign.kr/FloorPlan/Emodel" />
+  {/* Twitter */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="아산 모종 서한이다음 - E-모델하우스" />
+  <meta
+    name="twitter:description"
+    content="아산 모종 서한이다음 E-모델하우스를 온라인으로 체험하세요. VR 투어와 전용 59·84·101·154㎡ 평면도, 인테리어를 한눈에."
+  />
+  <meta name="twitter:image" content="https://www.cssdesign.kr/img/og/emodel.jpg" />
+  <meta name="twitter:url" content="https://www.cssdesign.kr/FloorPlan/Emodel" />
 
-        {/* JSON-LD (구조화데이터) */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "아산 모종 서한이다음 - E-모델하우스",
-            "url": "https://www.cssdesign.kr/FloorPlan/Emodel",
-            "description":
-              "아산 모종 서한이다음 E-모델하우스를 온라인에서 편리하게 둘러보세요. VR 가상 투어와 전용 59·72·84㎡ 세대별 평면도를 확인할 수 있습니다.",
-            "primaryImageOfPage": {
-              "@type": "ImageObject",
-              "contentUrl": "https://www.cssdesign.kr/img/og/emodel.jpg",
-              "width": 1200,
-              "height": 630
-            },
-            "breadcrumb": {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.cssdesign.kr/" },
-                { "@type": "ListItem", "position": 2, "name": "E-모델하우스", "item": "https://www.cssdesign.kr/FloorPlan/Emodel" }
-              ]
-            }
-          })}
-        </script>
-      </Helmet>
+  {/* JSON-LD (구조화데이터) */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "아산 모종 서한이다음 - E-모델하우스",
+      "url": "https://www.cssdesign.kr/FloorPlan/Emodel",
+      "description":
+        "아산 모종 서한이다음 E-모델하우스를 온라인에서 편리하게 둘러보세요. VR 가상 투어와 전용 59·84·101·154㎡ 세대별 평면도를 확인할 수 있습니다.",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "contentUrl": "https://www.cssdesign.kr/img/og/emodel.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.cssdesign.kr/" },
+          { "@type": "ListItem", "position": 2, "name": "E-모델하우스", "item": "https://www.cssdesign.kr/FloorPlan/Emodel" }
+        ]
+      }
+    })}
+  </script>
+</Helmet>
+
 
 
 

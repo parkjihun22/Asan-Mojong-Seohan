@@ -11,15 +11,16 @@ import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
 
-import page1 from "../../assets/Interior/Interior2/page1.jpg";
+import page1 from "../../assets/Interior/Interior2/interior1_84c.jpg";
 import Ready from "../../components/Ready/Ready";
 
 
 
 const Interior2 = () => {
   const menuContents = [
-    { title: "59A", url: "/Interior/59A" },
-    { title: "72B", url: "/Interior/84A" },
+    { title: "84A", url: "/Interior/59A" },
+    { title: "84B", url: "/Interior/84A" },
+    { title: "101A", url: "/Interior/84B" },
   ];
 
   const [isScroll, setIsScroll] = useState(false);
@@ -61,19 +62,10 @@ const Interior2 = () => {
       <Bener title="인테리어" />
 
       <MenuBar contents={menuContents} />
-      {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-      <h1 className={styles.screenReaderOnly}>
-        아산 모종 서한이다음 - 인테리어
-      </h1>
-      <p className={styles.screenReaderOnly}>
-        본 페이지에서는 아산 모종 서한이다음 84A 타입의 인테리어를 소개합니다.
-        공간 구성과 마감 재질, 수납·동선 등 디자인 포인트를 확인하고
-        거실·주방·침실·욕실별 컬러 패키지와 옵션 정보를 살펴보세요.
-      </p>
 
       <div className={styles.textBox}>
-        <div>아산의 새로운 기준 위에</div>
-        <div>아산 모종 서한이다음 인테리어를 만나보세요.</div>
+      <div>아산의 새로운 기준 위에</div>
+        <div>아산 모종 서한이다음이 자부심으로 찾아옵니다.</div>
       </div>
 
 

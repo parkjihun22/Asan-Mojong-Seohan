@@ -63,18 +63,19 @@ const LocationEnvironment1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        아산 모종 서한이다음- 프리미엄
+        아산 모종 서한이다음 - 프리미엄
       </h1>
       <p className={styles.screenReaderOnly}>
-        아산 모종 서한이다음만의 프리미엄을 만나보세요. 공원형 단지 설계와
-        브랜드 커뮤니티, 아산대교·초지대교 및 계양–아산 고속도로(추진)로 확장되는
-        접근성, 고려산·석모도 등 자연환경을 더해 일상의 품격을 높입니다.
+        아산 모종 서한이다음만의 프리미엄을 만나보세요. 지상 차 없는 공원형 단지 설계와
+        커뮤니티 특화, KTX 천안아산역·서해선 복선전철(예정)로 강화되는 광역 접근성,
+        모종근린공원·온천천 등 쾌적한 자연환경을 더해 일상의 품격을 높입니다.
       </p>
 
       <div className={styles.textBox}>
         <div>아산의 새로운 기준 위에</div>
         <div>아산 모종 서한이다음의 프리미엄을 누리세요.</div>
       </div>
+
 
 
       <img

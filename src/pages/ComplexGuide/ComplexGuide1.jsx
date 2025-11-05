@@ -50,82 +50,83 @@ const ComplexGuide1 = () => {
 
 	return (
 		<div className={styles.container}>
-			<Helmet>
-			{/* 페이지별 메타 */}
-			<title>아산 모종 서한이다음 - 단지배치도</title>
-			<meta
-				name="description"
-				content="아산 모종 서한이다음 단지배치도를 통해 동별 위치, 조경, 커뮤니티, 주차·보행 동선 설계를 확인하세요. 지상 차 없는 공원형(전면 지하주차)과 생활 편의를 고려한 최적 배치를 안내합니다."
-			/>
-			<meta name="robots" content="index,follow" />
-			<link rel="canonical" href="https://www.cssdesign.kr/ComplexGuide/intro" />
+<Helmet>
+  {/* 페이지별 메타 */}
+  <title>아산 모종 서한이다음 - 단지배치도</title>
+  <meta
+    name="description"
+    content="아산 모종 서한이다음 단지배치도를 통해 동별 위치, 조경, 커뮤니티, 주차·보행 동선 설계를 확인하세요. 지상 차 없는 공원형(전면 지하주차)과 생활 편의를 고려한 최적 배치를 안내합니다."
+  />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://www.cssdesign.kr/ComplexGuide/intro" />
 
-			{/* Open Graph */}
-			<meta property="og:type" content="website" />
-			<meta property="og:site_name" content="아산 모종 서한이다음" />
-			<meta property="og:title" content="아산 모종 서한이다음 - 단지배치도" />
-			<meta
-				property="og:description"
-				content="동·호 배치, 조경·커뮤니티, 주차·보행 동선까지 생활 편의를 극대화한 공원형 단지 배치를 확인하세요."
-			/>
-			<meta property="og:url" content="https://www.cssdesign.kr/ComplexGuide/intro" />
-			<meta property="og:image" content="https://www.cssdesign.kr/img/og/complex.jpg" />
-			<meta property="og:image:width" content="1200" />
-			<meta property="og:image:height" content="630" />
+  {/* Open Graph */}
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="아산 모종 서한이다음" />
+  <meta property="og:title" content="아산 모종 서한이다음 - 단지배치도" />
+  <meta
+    property="og:description"
+    content="동·호 배치, 조경·커뮤니티, 주차·보행 동선까지 생활 편의를 극대화한 공원형 단지 배치를 확인하세요. (지하 2층~지상 29층, 총 10개동)"
+  />
+  <meta property="og:url" content="https://www.cssdesign.kr/ComplexGuide/intro" />
+  <meta property="og:image" content="https://www.cssdesign.kr/img/og/complex.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
-			{/* Twitter */}
-			<meta name="twitter:card" content="summary_large_image" />
-			<meta name="twitter:title" content="아산 모종 서한이다음 - 단지배치도" />
-			<meta
-				name="twitter:description"
-				content="지상 차 없는 공원형 단지 설계와 조경·커뮤니티·주차·동선 계획을 한눈에."
-			/>
-			<meta name="twitter:image" content="https://www.cssdesign.kr/img/og/complex.jpg" />
-			<meta name="twitter:url" content="https://www.cssdesign.kr/ComplexGuide/intro" />
+  {/* Twitter */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="아산 모종 서한이다음 - 단지배치도" />
+  <meta
+    name="twitter:description"
+    content="지상 차 없는 공원형 단지 설계와 조경·커뮤니티·주차·동선 계획을 한눈에. (총 10개동, 지상 29층)"
+  />
+  <meta name="twitter:image" content="https://www.cssdesign.kr/img/og/complex.jpg" />
+  <meta name="twitter:url" content="https://www.cssdesign.kr/ComplexGuide/intro" />
 
-			{/* JSON-LD */}
-			<script type="application/ld+json">
-				{JSON.stringify({
-				"@context": "https://schema.org",
-				"@type": "WebPage",
-				"name": "아산 모종 서한이다음 - 단지배치도",
-				"url": "https://www.cssdesign.kr/ComplexGuide/intro",
-				"description":
-					"아산 모종 서한이다음 단지배치도: 동별 위치, 조경, 커뮤니티 시설, 주차·보행 동선 설계를 확인하세요.",
-				"primaryImageOfPage": {
-					"@type": "ImageObject",
-					"contentUrl": "https://www.cssdesign.kr/img/og/complex.jpg",
-					"width": 1200,
-					"height": 630
-				},
-				"breadcrumb": {
-					"@type": "BreadcrumbList",
-					"itemListElement": [
-					{ "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.cssdesign.kr/" },
-					{ "@type": "ListItem", "position": 2, "name": "단지배치도", "item": "https://www.cssdesign.kr/ComplexGuide/intro" }
-					]
-				}
-				})}
-			</script>
-			</Helmet>
+  {/* JSON-LD */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "아산 모종 서한이다음 - 단지배치도",
+      "url": "https://www.cssdesign.kr/ComplexGuide/intro",
+      "description":
+        "아산 모종 서한이다음 단지배치도: 동별 위치, 조경, 커뮤니티 시설, 주차·보행 동선 설계(지상 29층, 총 10개동)를 확인하세요.",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "contentUrl": "https://www.cssdesign.kr/img/og/complex.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.cssdesign.kr/" },
+          { "@type": "ListItem", "position": 2, "name": "단지배치도", "item": "https://www.cssdesign.kr/ComplexGuide/intro" }
+        ]
+      }
+    })}
+  </script>
+</Helmet>
 
+<Header isChanged={isScroll} />
+<FixIcon />
+<Bener title="단지안내" />
+<MenuBar contents={menuContents} />
 
-			<Header isChanged={isScroll} />
-			<FixIcon />
-			<Bener title="단지안내" />
-			<MenuBar contents={menuContents} />
-			{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-			<h1 className={styles.screenReaderOnly}>아산 모종 서한이다음 - 단지배치도</h1>
-			<p className={styles.screenReaderOnly}>
-			단지 배치도 페이지는 아산 모종 서한이다음의 전체 단지 구성도를 제공합니다.
-			21개동 배치, 녹지·조경 계획, 커뮤니티 시설 위치와 지상 차 없는 공원형 동선 계획을
-			시각적으로 안내하여 단지 내 생활을 쉽게 계획할 수 있도록 돕습니다.
-			</p>
+{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
+<h1 className={styles.screenReaderOnly}>아산 모종 서한이다음 - 단지배치도</h1>
+<p className={styles.screenReaderOnly}>
+  단지 배치도 페이지는 아산 모종 서한이다음의 전체 단지 구성도를 제공합니다.
+  10개동 배치, 녹지·조경 계획, 커뮤니티 시설 위치와 지상 차 없는 공원형 동선 계획을
+  시각적으로 안내하여 단지 내 생활을 쉽게 계획할 수 있도록 돕습니다.
+</p>
 
-			<div className={styles.textBox}>
-			<div>아산의 새로운 기준 위에</div>
-			<div>아산 모종 서한이다음가 자부심으로 찾아옵니다.</div>
-			</div>
+<div className={styles.textBox}>
+  <div>아산의 새로운 기준 위에</div>
+  <div>아산 모종 서한이다음이 자부심으로 찾아옵니다.</div>
+</div>
+
 
 
 			{/* 이미지에 애니메이션 효과 추가 */}
