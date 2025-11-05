@@ -19,7 +19,7 @@ import Ready from "../../components/Ready/Ready";
 const Interior1 = () => {
   const menuContents = [
     { title: "84A", url: "/Interior/59A" },
-    { title: "84B", url: "/Interior/84A" },
+    { title: "84C", url: "/Interior/84A" },
     { title: "101A", url: "/Interior/84B" },
   ];
 
