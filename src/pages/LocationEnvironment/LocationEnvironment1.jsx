@@ -100,7 +100,7 @@ const LocationEnvironment1 = () => {
     content="충남 아산시 모종샛들지구 중심 입지, 아산 모종 서한이다음의 입지환경을 확인하세요. KTX 천안아산역, 서해선 복선전철(예정) 등 교통망과 시청·터미널·이마트·하나로마트 등 생활 인프라, 모종근린공원·온천천 등 쾌적한 자연환경까지."
   />
   <meta name="robots" content="index,follow" />
-  <link rel="canonical" href="https://www.cssdesign.kr/LocationEnvironment/intro" />
+  <link rel="canonical" href="https://www.kf-liria.com/LocationEnvironment/intro" />
 
   {/* Open Graph */}
   <meta property="og:type" content="website" />
@@ -110,8 +110,8 @@ const LocationEnvironment1 = () => {
     property="og:description"
     content="KTX 천안아산역, 서해선 복선전철(예정) 등 교통망과 풍부한 생활 인프라, 모종근린공원·온천천 자연환경까지 누리는 아산 핵심 입지."
   />
-  <meta property="og:url" content="https://www.cssdesign.kr/LocationEnvironment/intro" />
-  <meta property="og:image" content="https://www.cssdesign.kr/img/og/location.jpg" />
+  <meta property="og:url" content="https://www.kf-liria.com/LocationEnvironment/intro" />
+  <meta property="og:image" content="https://www.kf-liria.com/img/og/location.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 
@@ -122,8 +122,8 @@ const LocationEnvironment1 = () => {
     name="twitter:description"
     content="KTX 천안아산역, 서해선 복선전철(예정), 시청·터미널·이마트 등 생활 인프라와 모종근린공원·온천천이 어우러진 아산 모종 서한이다음의 입지환경."
   />
-  <meta name="twitter:image" content="https://www.cssdesign.kr/img/og/location.jpg" />
-  <meta name="twitter:url" content="https://www.cssdesign.kr/LocationEnvironment/intro" />
+  <meta name="twitter:image" content="https://www.kf-liria.com/img/og/location.jpg" />
+  <meta name="twitter:url" content="https://www.kf-liria.com/LocationEnvironment/intro" />
 
   {/* JSON-LD (대표 이미지/브레드크럼 포함) */}
   <script type="application/ld+json">
@@ -131,20 +131,20 @@ const LocationEnvironment1 = () => {
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "아산 모종 서한이다음 - 입지환경",
-      "url": "https://www.cssdesign.kr/LocationEnvironment/intro",
+      "url": "https://www.kf-liria.com/LocationEnvironment/intro",
       "description":
         "충남 아산시 모종샛들지구 중심 입지, KTX 천안아산역과 서해선 복선전철(예정), 시청·터미널·이마트 등 풍부한 생활 인프라와 모종근린공원·온천천이 어우러진 쾌적한 환경.",
       "primaryImageOfPage": {
         "@type": "ImageObject",
-        "contentUrl": "https://www.cssdesign.kr/img/og/location.jpg",
+        "contentUrl": "https://www.kf-liria.com/img/og/location.jpg",
         "width": 1200,
         "height": 630
       },
       "breadcrumb": {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.cssdesign.kr/" },
-          { "@type": "ListItem", "position": 2, "name": "입지환경", "item": "https://www.cssdesign.kr/LocationEnvironment/intro" }
+          { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.kf-liria.com/" },
+          { "@type": "ListItem", "position": 2, "name": "입지환경", "item": "https://www.kf-liria.com/LocationEnvironment/intro" }
         ]
       }
     })}

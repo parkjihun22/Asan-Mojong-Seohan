@@ -58,7 +58,7 @@ const ComplexGuide1 = () => {
     name="description"
     content="아산 모종 서한이다음 동·호수 배치도를 통해 세대별 위치와 조망, 일조 방향, 프라이버시를 고려한 설계를 확인하세요. 라인·스택 구성 및 코어 동선 정보를 한눈에."
   />
-  <link rel="canonical" href="https://www.cssdesign.kr/ComplexGuide/detailintro" />
+  <link rel="canonical" href="https://www.kf-liria.com/ComplexGuide/detailintro" />
   <meta name="robots" content="index,follow" />
 
   {/* Open Graph */}
@@ -69,8 +69,8 @@ const ComplexGuide1 = () => {
     property="og:description"
     content="세대별 위치, 조망·일조, 프라이버시를 고려한 동·호수 배치를 확인하세요. 라인·스택 구성과 코어 동선 안내."
   />
-  <meta property="og:url" content="https://www.cssdesign.kr/ComplexGuide/detailintro" />
-  <meta property="og:image" content="https://www.cssdesign.kr/img/og/complex.jpg" />
+  <meta property="og:url" content="https://www.kf-liria.com/ComplexGuide/detailintro" />
+  <meta property="og:image" content="https://www.kf-liria.com/img/og/complex.jpg" />
 </Helmet>
 
 <Header isChanged={isScroll} />

@@ -11,7 +11,7 @@ import InterestPopup from "../InterestPopup/InterestPopup";
 
 // FAMILY SITE 목록 예시
 const partnerSites = [
-  { name: "아산 모종 서한이다음", url: "https://www.cssdesign.kr/" },
+  { name: "아산 모종 서한이다음", url: "https://www.kf-liria.com/" },
 ];
 
 const Footer = () => {

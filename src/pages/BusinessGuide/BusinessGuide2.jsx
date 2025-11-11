@@ -56,7 +56,7 @@ const BusinessGuide2 = () => {
     name="description"
     content="아산 모종 서한이다음 분양(청약) 일정을 한눈에 확인하세요. 견본주택 오픈, 특별공급·1·2순위 청약, 당첨자 발표, 정당계약 및 입주(예정) 등 주요 일정을 안내합니다."
   />
-  <link rel="canonical" href="https://www.cssdesign.kr/BusinessGuide/plan" />
+  <link rel="canonical" href="https://www.kf-liria.com/BusinessGuide/plan" />
   <meta name="robots" content="index,follow" />
 </Helmet>
 

@@ -69,7 +69,7 @@ const BusinessGuide1 = () => {
     content="충남 아산시 모종동 211번지 일원(모종샛들지구 A-1블록)에 들어서는 아산 모종 서한이다음의 사업 개요를 확인하세요. 총 1,079세대(지하 2층~지상 29층, 10개동), 전용 59·84·101·154㎡ 구성, 위치·규모·입주(예정) 정보 안내."
   />
   <meta name="robots" content="index,follow" />
-  <link rel="canonical" href="https://www.cssdesign.kr/BusinessGuide/intro" />
+  <link rel="canonical" href="https://www.kf-liria.com/BusinessGuide/intro" />
 
   {/* Open Graph */}
   <meta property="og:type" content="website" />
@@ -79,8 +79,8 @@ const BusinessGuide1 = () => {
     property="og:description"
     content="모종샛들지구 중심 생활권, 총 1,079세대 대단지. 위치·규모·타입 구성(59·84·101·154㎡)과 입주(예정) 정보를 한눈에 확인하세요."
   />
-  <meta property="og:url" content="https://www.cssdesign.kr/BusinessGuide/intro" />
-  <meta property="og:image" content="https://www.cssdesign.kr/img/og/business.jpg" />
+  <meta property="og:url" content="https://www.kf-liria.com/BusinessGuide/intro" />
+  <meta property="og:image" content="https://www.kf-liria.com/img/og/business.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="아산 모종 서한이다음 사업안내 대표 이미지" />
@@ -93,8 +93,8 @@ const BusinessGuide1 = () => {
     name="twitter:description"
     content="총 1,079세대(10개동, 지상 29층)·전용 59·84·101·154㎡ 구성. 모종샛들지구 중심 입지와 규모·일정 안내."
   />
-  <meta name="twitter:image" content="https://www.cssdesign.kr/img/og/business.jpg" />
-  <meta name="twitter:url" content="https://www.cssdesign.kr/BusinessGuide/intro" />
+  <meta name="twitter:image" content="https://www.kf-liria.com/img/og/business.jpg" />
+  <meta name="twitter:url" content="https://www.kf-liria.com/BusinessGuide/intro" />
 
   {/* JSON-LD (대표 이미지/브레드크럼 포함) */}
   <script type="application/ld+json">
@@ -102,20 +102,20 @@ const BusinessGuide1 = () => {
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "아산 모종 서한이다음 - 사업안내",
-      "url": "https://www.cssdesign.kr/BusinessGuide/intro",
+      "url": "https://www.kf-liria.com/BusinessGuide/intro",
       "description":
         "충남 아산시 모종동 211번지 일원(모종샛들지구 A-1블록)에 조성되는 아산 모종 서한이다음의 위치, 규모, 타입 구성(59·84·101·154㎡), 입주(예정) 정보를 제공합니다. 총 1,079세대, 지하 2층~지상 29층, 10개동.",
       "primaryImageOfPage": {
         "@type": "ImageObject",
-        "contentUrl": "https://www.cssdesign.kr/img/og/business.jpg",
+        "contentUrl": "https://www.kf-liria.com/img/og/business.jpg",
         "width": 1200,
         "height": 630
       },
       "breadcrumb": {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.cssdesign.kr/" },
-          { "@type": "ListItem", "position": 2, "name": "사업안내", "item": "https://www.cssdesign.kr/BusinessGuide/intro" }
+          { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.kf-liria.com/" },
+          { "@type": "ListItem", "position": 2, "name": "사업안내", "item": "https://www.kf-liria.com/BusinessGuide/intro" }
         ]
       }
     })}

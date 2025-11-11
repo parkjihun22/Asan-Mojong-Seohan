@@ -53,7 +53,7 @@ const Brand1 = () => {
     name="description"
     content="㈜서한의 프리미엄 주거 브랜드 ‘서한이다음 노블리스’의 철학과 가치를 소개합니다. 차별화된 커뮤니티와 품질 기준으로 일상의 품격을 높이는 아산 모종 서한이다음."
   />
-  <link rel="canonical" href="https://www.cssdesign.kr/Brand/intro" />
+  <link rel="canonical" href="https://www.kf-liria.com/Brand/intro" />
   <meta name="robots" content="index,follow" />
 
   {/* Open Graph */}
@@ -64,8 +64,8 @@ const Brand1 = () => {
     property="og:description"
     content="서한이다음 노블리스 브랜드 소개: 고객 중심 설계, 신뢰의 품질, 차별화된 커뮤니티로 완성하는 프리미엄 라이프."
   />
-  <meta property="og:url" content="https://www.cssdesign.kr/Brand/intro" />
-  <meta property="og:image" content="https://www.cssdesign.kr/images/og/main.jpg" />
+  <meta property="og:url" content="https://www.kf-liria.com/Brand/intro" />
+  <meta property="og:image" content="https://www.kf-liria.com/images/og/main.jpg" />
   <meta property="og:image:alt" content="아산 모종 서한이다음 브랜드 소개 메인 이미지" />
   <meta property="og:locale" content="ko_KR" />
 
@@ -76,7 +76,7 @@ const Brand1 = () => {
     name="twitter:description"
     content="서한이다음 노블리스의 브랜드 철학과 커뮤니티 가치를 확인하세요."
   />
-  <meta name="twitter:image" content="https://www.cssdesign.kr/images/og/main.jpg" />
+  <meta name="twitter:image" content="https://www.kf-liria.com/images/og/main.jpg" />
 </Helmet>
 
 <Header isChanged={isScroll} />

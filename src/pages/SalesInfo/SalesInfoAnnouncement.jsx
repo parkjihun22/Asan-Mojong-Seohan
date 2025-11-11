@@ -77,7 +77,7 @@ const ComplexGuide1 = () => {
             name="description"
             content="아산 모종 서한이다음 모집공고를 한눈에 확인하세요. 공급 세대수·공급면적·분양가, 청약 일정·자격, 당첨자 발표·정당계약 및 유의사항을 안내합니다."
           />
-          <link rel="canonical" href="https://www.cssdesign.kr/SalesInfo/announcement" />
+          <link rel="canonical" href="https://www.kf-liria.com/SalesInfo/announcement" />
           <meta name="robots" content="index,follow" />
         </Helmet>
 
